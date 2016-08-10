@@ -1,0 +1,90 @@
+/*Global*/
+*{
+	font-family: 'Indie Flower', cursive;
+}
+
+@font-face{
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+@font-face{
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+
+/* Shortcuts */
+.no-padding {padding: 0 !important;}
+
+.no-margin {margin: 0 !important;}
+
+.pd-0{padding: 0;}
+
+.pt-5{padding-top: 5%;}
+
+.pt-3{padding-top: 3%;}
+
+.pt-2{padding-top: 2%;}
+
+.pb-5{padding-bottom: 5%;}
+
+.pb-2{padding-bottom: 2%;}
+
+.pl-5 {padding-left: 5%;}
+
+.pt-10{padding-top: 10%;}
+
+.ml-5{margin-left: 5%:;}
+
+.mt-10{margin-top: 10%;}
+
+.mt-5{margin-top: 5%;}
+
+.mt-3{margin-top: 3%;}
+
+.mb-8{margin-bottom: 8%;}
+
+.mb-5{margin-bottom: 5%;}
+
+.mt-5{margin-top: 5%;}
+
+.ml-15{margin-left: 15%;}
+
+.mg-2{margin: 2%;}
+
+.mg-0{margin: 0;}
+
+.mt-5{margin-top: 5%;}
+
+.mb-10{margin-bottom: 10%;}
+
+.w-100{width: 100%;}
+
+.lh{line-height: 1.5;}
+
+.text-center{text-align: center;}
+
+.text-left{text-align: left;}
+
+.text-white{color: white;}
+
+.text-gray{color: rgb(83, 88, 95);}
+
+.text-blue{color: #192951;}
+
+.a-none-decoration{text-decoration: none;}
+
+.bg-gray{background-color: rgb(244, 244, 244);}
+
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

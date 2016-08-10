@@ -1,0 +1,189 @@
+/*css en general*/
+
+*{font-family: 'Montserrat'}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+a, span{font-family: 'Montserrat', sans-serif;}
+p{font-family: 'Arimo', sans-serif;;}
+
+/*navegador*/
+li a:hover{color:#18B9B6;}
+
+ul li:hover{background-color: ;}
+ 
+nav .container{padding: 1% 6%;}
+
+nav a{
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > .active {
+	color: #18bc9e;
+	background-color: ;
+}
+
+.navbar-default .navbar-nav > li > .active:hover{color: #fff;}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.computadora{
+	background-image: url(../img/lu/large4.jpg);
+	height: 800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Luciana{
+	border-radius: 50%;
+    width: 23%;
+    margin-top: 0%;
+}
+.navbar-default .navbar-toggle {border-color: white;}
+
+#menu.active {
+	background-color: #404040;
+  webkit-transform: translateY(0);
+-moz-transform: translateY(0);
+-ms-transform: translateY(0);
+-o-transform: translateY(0);
+transform: translateY(0);
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+-webkit-transform: translateZ(0);
+}
+.fondo-negro{
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+	height: 100%;
+	position: relative;
+}
+
+.nombres{
+	position: absolute;
+	z-index: 5;
+}
+
+.nombres h1{
+	padding-left: 16%;
+    padding-top: 23%;
+}
+
+.nombres h3{margin-left: 16%;}
+
+.raya-inferior{border-bottom: 2px solid white;}
+.raya-inferior{border-bottom: 2px solid white;}
+
+.nombres .col-md-6{margin-left: 33%}
+
+
+.botones{margin-left: 9%;}
+
+.icon-md {
+    height: 68px;
+    width: 68px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #939393;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+
+}
+.flecha{
+	font-size: 49px;
+	margin-left: 10%;
+}
+
+.icon-md:hover {background-color:#553E5D;}
+/*aca empieza la parte de sobre mi*/
+.fondo-plomo {
+    background: #CCCCCC;
+}
+
+.foto-lu{
+	width: 24%;
+    margin-left: 39%;
+    border-radius: 50%;
+}
+.parrafo-sobre-mi{
+	margin-left: 24%;
+	font-size: 15px;
+}
+
+
+/*la parte del trabajos*/
+.fondo-aqua{background-color: #A2DDE9}
+ 
+ /*la parte de las habilidades*/
+ .chart {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+ /*la partes del contacto*/
+ .fondo-azul{background-color: #5A0EE9;}
+ .redes a{
+ 	padding: 2%;
+    background-color: black;
+    border-radius: 29%;
+    font-size: 24px;
+ }
+ .redes a:hover{
+ 	background-color: white;
+ 	color: black;
+ }
+
+
+@media (max-width: 767px){
+  .computadora{
+    background-position: center;
+    height: 500px;
+  }
+  .nombres h1{
+    padding-top: 95%;
+    padding-left: 0;
+      font-size: 22px;
+  }
+  .nombres h3{
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .nombres .col-md-12{margin-left: 24%;}
+  .nombres .col-md-6{margin-left: 10%;}
+  .botones button{font-size: 10px;}
+  .nombres .col-md-6{margin-left: 0%;}  
+  .foto-lu {
+    width: 53%;
+    margin-left: 27%;
+  }
+  .parrafo-sobre-mi{margin-left: 0%;} 
+  .parrafo-sobre-mi h3{font-size: 18px;}
+  .parrafo-sobre-mi {font-size: 12px;}
+  .graphic{
+    margin-left:20%;
+    margin-right: 20%;
+  }
+}
