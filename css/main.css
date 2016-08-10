@@ -108,6 +108,7 @@ transition: all 0.2s ease-in-out;
 }
 
 .icon-md:hover {background-color:#553E5D;}
+
 /*aca empieza la parte de sobre mi*/
 .fondo-plomo {
     background: #CCCCCC;
@@ -126,23 +127,9 @@ transition: all 0.2s ease-in-out;
 
 /*la parte del trabajos*/
 .fondo-aqua{background-color: #A2DDE9}
+.col-md-4 img {width: 100%}
  
- /*la parte de las habilidades*/
- .chart {
-  position: relative;
-  display: inline-block;
-  margin: 20px 10px;
-  color: #999;
-  font-size: 14px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-}
-.chart canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
  /*la partes del contacto*/
  .fondo-azul{background-color: #5A0EE9;}
  .redes a{
