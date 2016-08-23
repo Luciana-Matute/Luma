@@ -1,7 +1,7 @@
 $(document).scroll(function() {    
     var scroll = $(this).scrollTop();
 
-    if (scroll >= 50) {
+    if (scroll >= 70) {
         $("#menu").addClass("active");
     } else {
         $("#menu").removeClass("active");
@@ -63,4 +63,6 @@ $(".menu-toggle").on('click', function() {
         }
       });
     });
-  }
+  
+
+
