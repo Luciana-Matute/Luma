@@ -32,19 +32,21 @@ background-color: black;
 color: #fff;
 }
 
-.computadora{
-	background-image: url(../img/lu/large4.jpg);
-	height: 800px;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+.navbar-default {
+  background-color: transparent;
+} 
 
-.Luciana{
-	border-radius: 50%;
-    width: 23%;
-    margin-top: 0%;
-}
 .navbar-default .navbar-toggle {border-color: white;}
+
+.navbar ul {
+  margin-left: 23%
+} 
+
+li img  {
+  width: 48%;
+  margin-top: -16%;
+  margin-left: 31%;
+}
 
 #menu.active {
 	background-color: #404040;
@@ -58,6 +60,14 @@ transform: translateY(0);
 transition: all 0.2s ease-in-out;
 -webkit-transform: translateZ(0);
 }
+
+.computadora{
+  background-image: url(../img/lu/large4.jpg);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .fondo-negro{
 	background-color: black;
 	opacity: 0.5;
@@ -122,66 +132,7 @@ transition: all 0.2s ease-in-out;
 }
 
 
-/*la parte del trabajos
-.fondo-aqua{background-color: #A2DDE9}
-.col-md-4 img {width: 100%}*/
-
-.skill{
-  background-color: #F2F0D8;
-  padding: 6% 0 4%;
-  font-family: "Raleway", sans-serif;
-}
-
-.skill h2, .portfolio h2, .contact h2 {
-  font-family: "Glass Antiqua", cursive;
-  font-size: 3em;
-  color: #495F8C;
-  font-weight: bold;
-}
-
-.skill hr, .portfolio hr, .contact hr {
-  border: 2px solid #495F8C;
-}
-
-.skill p, .portfolio p, .contact p {
-  font-size: 1.2em;
-  margin: 4% 0;
-}
-
-.skill .circle-group, .portfolio .circle-group, .contact .circle-group {
-  padding-bottom: 6%;
-}
-
-.skill .circle-group .circle, .portfolio .circle-group .circle, .contact .circle-group .circle {
-  position: relative;
-  display: inline-block;
-  margin: 3%;
-  vertical-align: top;
-  text-align: center;
-  width: 162px;
-  padding-top: 40px;
-  color: #2A3159;
-}
-
-.skill .circle-group .circle canvas, .portfolio .circle-group .circle canvas, .contact .circle-group .circle canvas {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.skill .circle-group .circle img, .portfolio .circle-group .circle img, .contact .circle-group .circle img {
-  margin-top: 10%;
-}
-
-.skill .circle-group .circle i, .portfolio .circle-group .circle i, .contact .circle-group .circle i {
-  font-size: 3em;
-  display: block;
-}
-
-.skill .circle-group .circle span, .portfolio .circle-group .circle span, .contact .circle-group .circle span {
-  font-size: 1.2em;
-}
+/*parte de trabajos*/
 
 .portfolio .enlace {
   color: #2A3159;

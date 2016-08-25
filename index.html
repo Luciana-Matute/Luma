@@ -21,7 +21,8 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
+	
+  <nav id="menu" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
@@ -30,26 +31,32 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">FREELANCER</a>
+        <a class="navbar-brand visible-xs " href="#"><img src="img/lu/letra.png"></a>
       </div>
       <div class="collapse navbar-collapse" id="collapse">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-center">
           <li>
-            <a href="index.html"  class="active">PORTFOLIO</a>
+            <a href="#"  class="active">Hola!</a>
           </li>
           <li>
-            <a href="about.html">ABOUT</a>
+            <a href="#">Sobre Mi</a>
+          </li>
+          <li class="hidden-xs">
+            <a class="navbar-brand" href="#"><img src="img/lu/letra.png"></a>
           </li>
           <li>
-            <a href="blog.html">BLOG</a>
+            <a href="#">Trabajos</a>
           </li>
           <li>
-            <a href="#contact">CONTACT</a>
+            <a href="#">Contacto</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+
+
   <section id="inicio" class="nombres">
     <div class="container text-center">
       <div class="row">
@@ -73,6 +80,7 @@
   </section>
 
   <div class="computadora"><div class="fondo-negro"></div>
+
   <section id="sobre-mi" class="fondo-plomo">
      <div class="container">
         <div class="row mt-5 mb-8">
@@ -89,193 +97,211 @@
         </div>
      </div>
   </section>
+
   <section id="proyecto" class="portfolio">
-      <div class="container text-center">
-        <h2>Proyectos</h2>
-        <hr width="10%" align="center">
-        <p>Estos son algunos de los trabajos que he desarrollado a lo largo de Laboratoria.</p>
-        <ul class="nav nav-tabs">
-          <li class="active"><a data-toggle="tab" href="#home">Todos</a></li>
-          <li><a data-toggle="tab" href="#menu1">HTML - CSS</a></li>
-          <li> <a data-toggle="tab" href="#menu2">Jade - Sass</a></li>
-          <li> <a data-toggle="tab" href="#menu3">JS - Jquery</a></li>
-        </ul>
-        <div class="tab-content">
-          <div id="home" class="tab-pane fade in active">
-            <div class="row box text-center">
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Flat Theme</h3>
-                        </div></a></div>
+    <div class="container text-center">
+      <h2>Proyectos</h2>
+      <hr width="10%" align="center">
+      <p>Estos son algunos de los trabajos que he desarrollado a lo largo de Laboratoria.</p>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Todos</a></li>
+        <li><a data-toggle="tab" href="#menu1">HTML - CSS</a></li>
+        <li> <a data-toggle="tab" href="#menu2">Jade - Sass</a></li>
+        <li> <a data-toggle="tab" href="#menu3">JS - Jquery</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <div class="row box text-center">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Flat Theme</h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Dashgum Theme</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Dashgum Theme</h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Blog</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Blog</h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Kane Theme </h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Kane Theme </h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Agency </h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Agency </h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Love Blog</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Love Blog</h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>TODO APP</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>TODO APP</h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Tic Tac Toe</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Tic Tac Toe</h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Reloj Digital</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Reloj Digital</h3>
                   </div>
+                </a>
+              </div>
             </div>
           </div>
-          <div id="menu1" class="tab-pane fade">
-            <div class="row box text-center">
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Flat Theme</h3>
-                        </div></a></div>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <div class="row box text-center">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Flat Theme</h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Dashgum Theme</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Dashgum Theme</h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Blog</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Blog</h3>
                   </div>
+                </a>
+              </div>
             </div>
           </div>
-          <div id="menu2" class="tab-pane fade">
-            <div class="row box text-center">
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Kane Theme </h3>
-                        </div></a></div>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <div class="row box text-center">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Kane Theme </h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Agency </h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Agency </h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="#" target="_blank">
-                        <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
-                        <div class="info">
-                          <h3>Love Blog</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>Love Blog</h3>
                   </div>
+                </a>
+              </div>
             </div>
           </div>
-          <div id="menu3" class="tab-pane fade">
-            <div class="row box text-center">
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="http://todo-app.bitballoon.com" target="_blank">
-                        <div class="img"><img src="image/todo.png"></div>
-                        <div class="info">
-                          <h3>TODO APP</h3>
-                        </div></a></div>
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <div class="row box text-center">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>ya </h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="http://tic-tactoe.bitballoon.com" target="_blank">
-                        <div class="img"><img src="image/tictac.png"></div>
-                        <div class="info">
-                          <h3>Tic Tac Toe</h3>
-                        </div></a></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ih-item square effect6 top_to_bottom">
+                <a href="#" target="_blank">
+                  <div class="img"><img src="img/lu/trabajos/dashboard.jpg"></div>
+                  <div class="info">
+                    <h3>salio </h3>
                   </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect6 top_to_bottom"><a href="http://relojapp.bitballoon.com" target="_blank">
-                        <div class="img"><img src="image/reloj.png"></div>
-                        <div class="info">
-                          <h3>Reloj Digital</h3>
-                        </div></a></div>
-                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-    </section>
-  <section id="skill" class="skill">
-      <div class="container text-center">
-        <h2>Habilidades</h2>
-        <hr width="10%" align="center">
-        <p>Estas son las herramientas que utilizo para realizar mis páginas web.</p>
-        <div class="row circle-group">
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="circle 1"><i aria-hidden="true" class="i ion-social-html5"></i><span>85%</span></div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="circle 2"><i aria-hidden="true" class="ion-social-css3"></i><span>82%</span></div>
-          </div>
-        <div class="row circle-group">
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="circle 5"><img src="image/bootstrap-icon.png">
-              <p>90%</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="circle 6"><i aria-hidden="true" class="ion-social-javascript"></i><span>45%</span></div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="circle 6"><img src="image/jquery.png">
-              <p>45%</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="circle 7"><i aria-hidden="true" class="ion-social-wordpress"></i><span>80%</span></div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+ 
+
   <footer id="contacto" class="fondo-azul">
     <div class="container">
       <div class="row mt-5 mb-5">
@@ -293,10 +319,9 @@
       </div>
     </div> 
   </footer>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/freelancer.js"></script>
-    <script src="js/circle-progress.js"></script>
+
     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/menu-scroll.js"></script>
     <script src="js/main.js"></script>
 
