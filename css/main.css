@@ -12,9 +12,7 @@ p{font-family: 'Arimo', sans-serif;;}
 
 /*navegador*/
 
-li a:hover{color:#18B9B6;}
-
-ul li:hover{background-color: black;}
+li a:hover{color:#18B9B6;}}
  
 nav .container{padding: 1% 6%;}
 
@@ -25,11 +23,6 @@ nav a{
 
 .navbar-default .navbar-nav > li > .active {
 color: #18bc9e;
-background-color: black;
-}
-
-.navbar-default .navbar-nav > li > .active:hover{
-color: #fff;
 }
 
 .navbar-default {
@@ -130,7 +123,6 @@ transition: all 0.2s ease-in-out;
 	margin-left: 24%;
 	font-size: 15px;
 }
-
 
 /*parte de trabajos*/
 
