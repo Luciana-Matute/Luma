@@ -192,7 +192,7 @@ transition: all 0.2s ease-in-out;
  }
 
 
-@media (max-width: 767px){
+@media (max-width: 600px){
   a img  {
   width: 71px;
   margin-top: -35%;
