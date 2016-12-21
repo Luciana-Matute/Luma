@@ -193,6 +193,11 @@ transition: all 0.2s ease-in-out;
 
 
 @media (max-width: 767px){
+  a img  {
+  width: 71px;
+  margin-top: -35%;
+  margin-left: -8%;
+  }
   .computadora{
     background-position: center;
     height: 500px;
